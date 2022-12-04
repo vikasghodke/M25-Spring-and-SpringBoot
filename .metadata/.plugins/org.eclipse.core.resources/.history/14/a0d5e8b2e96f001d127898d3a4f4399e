@@ -1,0 +1,11 @@
+package org.tnsindia.di1;
+
+public class StudentK {
+	
+	MathCheat m=new MathCheat();
+	public void cheating()
+	{
+		m.mathcheat();
+	}
+
+}

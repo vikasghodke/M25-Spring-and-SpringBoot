@@ -1,0 +1,16 @@
+package org.tnsindia.di;
+
+public class DIUsingLiterals {
+
+	public static void main(String[] args) {
+		//hard coding
+		//Student s=new Student();
+		//using IOC
+		ApplicationContext c=new ClassPathXmlApplicationContext("beans.xml");
+		SutdentK s1=c.getBean("s1",StudentK.class);
+		s1.cheating();
+		
+
+	}
+
+}

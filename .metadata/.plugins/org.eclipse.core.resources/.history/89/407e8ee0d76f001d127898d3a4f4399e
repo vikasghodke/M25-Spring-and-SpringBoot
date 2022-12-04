@@ -1,0 +1,20 @@
+package org.tnsindia.di;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		//hard coding
+		//Student s=new Student();
+		//using IOC
+		ApplicationContext c=new ClassPathXmlApplicationContext("beans.xml");
+		Sutdent s1=c.getBean("s1",Student.class);
+		Sutdent s2=c.getBean("s2",Student.class);
+		s1.display();
+		s2.display();
+		//s.setStudent_Name("Vikas G");
+		//s.display();
+		
+
+	}
+
+}

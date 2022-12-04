@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.tnsndia.springbean.StudentDeo.java&apos; to &apos;StudentDAO.java&apos;&#x0D;&#x0A;- Original project: &apos;SpringWithDB&apos;&#x0D;&#x0A;- Original element: &apos;org.tnsndia.springbean.StudentDeo.java&apos;&#x0D;&#x0A;- Renamed element: &apos;org.tnsndia.springbean.StudentDAO.java&apos;" description="Rename compilation unit &apos;StudentDeo.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.tnsndia.springbean{StudentDeo.java" name="StudentDAO.java" references="false" stamp="1669889871719" version="1.0"/>
+</session>
